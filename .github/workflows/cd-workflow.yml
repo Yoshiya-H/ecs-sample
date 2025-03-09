@@ -17,7 +17,7 @@ env:
   WEBAPP_TAG: 1.0.0
   BACKEND_TAG: 1.0.0
   RESTAPI_TAG: 1.0.0
-  AWS_ROLE_NAME: arn:aws:iam::953422125712:role/OICD-GItHub-Yoshiya-H
+  AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
   SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
 
 jobs:
